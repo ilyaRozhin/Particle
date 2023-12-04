@@ -15,4 +15,5 @@ add_executable(particle_v1 main.cpp
         src/Plane.h
         src/Sizes.h
         src/UsefulFeatures.h
-        src/UsefulFeatures.cpp)
+        src/UsefulFeatures.cpp
+        src/TypeParticle.h)

@@ -16,6 +16,7 @@
 #include "Probability.h"
 #include "Comparison.h"
 #include "Plane.h"
+#include "TypeParticle.h"
 
 using namespace std;
 
@@ -57,7 +58,7 @@ private:
     double energy;
     double length_way;
 
-    string type_particle;
+    TypeParticle type_particle;
     bool tracking;
 
     void init_angles();
@@ -66,5 +67,6 @@ private:
     void init_guide_vector(Point origin,Angles angles);
     void init_coordinates(Plane &plane);
 };
+
 
 #endif //PARTICLE_V1_PARTICLE_H

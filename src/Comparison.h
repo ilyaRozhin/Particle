@@ -11,10 +11,8 @@
 
 class Comparison {
 public:
-    Comparison(double max, double min){
-        max_value = max;
-        min_value = min;
-    }
+    Comparison(double max, double min): max_value(max),min_value(min)
+    {};
     double difference() const{return max_value - min_value;}
     double min() const {return min_value;}
     double max() const {return max_value;}

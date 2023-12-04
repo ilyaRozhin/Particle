@@ -7,19 +7,15 @@
 
 class  UnitVector{
 public:
-    UnitVector(){
-        i = 0;
-        j = 0;
-        k = 0;
-    }
+    UnitVector() = default;
     UnitVector(double init_i,double init_j,double init_k){
         i = init_i;
         j = init_j;
         k = init_k;
     }
-    double i;
-    double j;
-    double k;
+    double i = 0;
+    double j = 0;
+    double k = 0;
 };
 
 #endif //PARTICLE_V1_UNITVECTOR_H
